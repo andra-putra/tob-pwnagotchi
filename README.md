@@ -1,6 +1,25 @@
 # tob-pwnagotchi
 Contains my config.toml file for my pwnagotchi.
 
+Features:
+- Inversed display colors (black background)
+- Custom kaomoji
+- Japanese language & Text
+- Various plugins
+
+Plugins:
+- Bluetooth tethering to phone (bt-tether)
+- Memory/CPU/Temperature monitor (memtemp)
+- Blinking power lights (led)
+- Automatic positioning tracker (net-pos)
+- Quick dictionary attacks on handshakes (quickdic)
+- Displays cracked password (display-password)
+- Delete incomplete handshakes (aircrackonly)
+- Session statistics (session-stats)
+- Configure config.toml file through web UI (webcfg)
+- Web GPS map of captured handshakes (webgpsmap)
+- Download handshakes from web UI (handshakes-dl)
+
 # Usage
 Put the file in your pwnagotchi's SD card either by SCP or just directly accessing it (USB to microSD reader, etc.)
 
