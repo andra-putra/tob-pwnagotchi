@@ -49,5 +49,5 @@ cp ./tob-pwnagotchi/config.toml /path/to/your/SDcard/etc/pwnagotchi/config.toml 
 
 # Gallery
 ![honmono](/media/pwnagotchi.png)
-![bluetooth tethering](/media/luetooth_tether.png)
-![onthego](/media/nthego.png)
+![bluetooth tethering](/media/bluetooth_tether.png)
+![onthego](/media/onthego.png)
