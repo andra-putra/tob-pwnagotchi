@@ -20,6 +20,14 @@ Plugins:
 - Web GPS map of captured handshakes (webgpsmap)
 - Download handshakes from web UI (handshakes-dl)
 
+# Hardware
+(WIP)
+
+# Gallery
+![honmono](/media/pwnagotchi.png)
+![bluetooth tethering](/media/bluetooth_tether.png)
+![onthego](/media/onthego.png)
+
 # Usage
 Put the file in your pwnagotchi's SD card either by SCP or just directly accessing it (USB to microSD reader, etc.)
 
@@ -44,10 +52,4 @@ git clone https://github.com/andra-putra/tob-pwnagotchi
 cp ./tob-pwnagotchi/config.toml /path/to/your/SDcard/etc/pwnagotchi/config.toml # Make sure you replace this with the correct path to your SD card
 ```
 
-# Hardware
-(WIP)
 
-# Gallery
-![honmono](/media/pwnagotchi.png)
-![bluetooth tethering](/media/bluetooth_tether.png)
-![onthego](/media/onthego.png)
