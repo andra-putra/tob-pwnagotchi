@@ -43,3 +43,9 @@ lsblk # Find where your SD card is mounted
 git clone https://github.com/andra-putra/tob-pwnagotchi
 cp ./tob-pwnagotchi/config.toml /path/to/your/SDcard/etc/pwnagotchi/config.toml # Make sure you replace this with the correct path to your SD card
 ```
+
+# Hardware
+(WIP)
+
+# Gallery
+
