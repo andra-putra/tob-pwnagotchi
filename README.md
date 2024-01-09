@@ -1,5 +1,5 @@
 # tob-pwnagotchi
-Contains my config.toml file for my pwnagotchi.
+Contains my config.toml file for my [pwnagotchi](https://github.com/evilsocket/pwnagotchi).
 
 Features:
 - Inversed display colors (black background)
@@ -7,7 +7,7 @@ Features:
 - Japanese language & Text
 - Various plugins
 
-Plugins:
+Plugins: (TODO: add links to these)
 - Bluetooth tethering to phone (bt-tether)
 - Memory/CPU/Temperature monitor (memtemp)
 - Blinking power lights (led)
