@@ -4,6 +4,7 @@ main.whitelist = [
  "TP-Link_IRA 24",
  "ap-px45g",
  "ap-pcf1",
+ "AP-NP2",
 ]
 main.plugins.grid.enabled = true
 main.plugins.grid.report = true
@@ -11,6 +12,7 @@ main.plugins.grid.exclude = [
  "TP-Link_IRA 24",
  "ap-px45g",
  "ap-pcf1",
+ "AP-NP2",
 ]
 
 main.plugins.memtemp.enabled = true
@@ -50,12 +52,23 @@ main.plugins.wigle.donate = true
 main.plugins.bt-tether.enabled = true
 main.plugins.bt-tether.devices.android-phone.enabled = true
 main.plugins.bt-tether.devices.android-phone.search_order = 1
-main.plugins.bt-tether.devices.android-phone.mac = "a4:50:46:4a:6f:b2"
+main.plugins.bt-tether.devices.android-phone.mac = "2c:be:eb:52:ee:1e"
 main.plugins.bt-tether.devices.android-phone.ip = "192.168.44.44"
 main.plugins.bt-tether.devices.android-phone.netmask = 24
 main.plugins.bt-tether.devices.android-phone.interval = 1
-main.plugins.bt-tether.devices.android-phone.scantime = 10
-main.plugins.bt-tether.devices.android-phone.max_tries = 10
+main.plugins.bt-tether.devices.android-phone.scantime = 30
+main.plugins.bt-tether.devices.android-phone.max_tries = 50
+main.plugins.bt-tether.devices.android-phone.share_internet = true
+main.plugins.bt-tether.devices.android-phone.priority = 1
+
+main.plugins.bt-tether.devices.android-phone.enabled = true
+main.plugins.bt-tether.devices.android-phone.search_order = 2
+main.plugins.bt-tether.devices.android-phone.mac = "2c:be:eb:52:ee:1e"
+main.plugins.bt-tether.devices.android-phone.ip = "192.168.1.234"
+main.plugins.bt-tether.devices.android-phone.netmask = 24
+main.plugins.bt-tether.devices.android-phone.interval = 1
+main.plugins.bt-tether.devices.android-phone.scantime = 30
+main.plugins.bt-tether.devices.android-phone.max_tries = 50
 main.plugins.bt-tether.devices.android-phone.share_internet = true
 main.plugins.bt-tether.devices.android-phone.priority = 1
 
@@ -164,7 +177,7 @@ ui.faces.look_l = "(<_< )"
 ui.faces.look_r_happy = "( ^ω^)"
 ui.faces.look_l_happy = "(^ω^ )"
 ui.faces.intense = "(>##<)"
-ui.faces.cool = "(b•̀ω-)b"
+ui.faces.cool = "(b•ω•)b"
 ui.faces.sleep = "(⇀‿‿↼)"
 ui.faces.sleep2 = "(≖‿‿≖)"
 ui.faces.bored = "(-__-)"
@@ -254,4 +267,3 @@ fs.memory.mounts.data.size = "10M"
 fs.memory.mounts.data.sync = 3600
 fs.memory.mounts.data.zram = false
 fs.memory.mounts.data.rsync = true
-
